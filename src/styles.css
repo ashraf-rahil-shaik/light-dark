@@ -103,3 +103,9 @@ a{
     color:black;
     font-style: oblique;
 }
+#alteredColorText{
+    margin:10 0 10 0;
+    color:rgb(255, 246, 125);
+    font-weight: 600;
+    font-family: 'Akaya Telivigala', cursive;
+}
