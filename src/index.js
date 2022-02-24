@@ -9,6 +9,8 @@ const sliderText = document.getElementById('sliderText')
 const alteredColor = document.getElementById('alteredColor');
 const alteredColorText = document.getElementById('alteredColorText');
 const hexOutput = document.getElementById('hexOutput')
+const copyer = document.getElementById('copyer')
+
 toggleBtn.addEventListener('click', () => {
     if(toggleBtn.classList.contains('toggled')){
       toggleBtn.classList.remove('toggled');
@@ -108,4 +110,6 @@ slider.addEventListener('input',() => {
 
 })
 
-
+copyer.addEventListener('click',()=>{
+ navigator.clipboard.writeText(alteredColorText.innerText)
+})

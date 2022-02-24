@@ -109,3 +109,19 @@ a{
     font-weight: 600;
     font-family: 'Akaya Telivigala', cursive;
 }
+.copyer{
+    width:100px;
+    height:35px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: none;
+    background-color:#ecd7fa;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+.copyer:hover{
+    background-color: #cfa1ee;
+    cursor: pointer;
+    color:white;
+}
